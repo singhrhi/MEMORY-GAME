@@ -1,6 +1,6 @@
 # MemoryGame
 
-How to run the app : It's simple just open memory-game folder (shared with Nina) and double click the index.html. I have build the app in such a way so that it can be run by double clicking on the index.html.
+How to run the app : It's simple, just open the memory-game folder and double click the index.html. I have built the app in such a way so that it can be run by double clicking on the index.html.
 
 Link for the code base is as follows,
 
