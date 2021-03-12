@@ -15,9 +15,6 @@ Some considerations:
 -Its a two player game.
 -Player one will start the game
 -Current player will be marked in green text
-
-Regards,
-Rohit
-
-
-
+-Card component is for single card (image).
+-Cards componenet manages card component also player realated informatio
+-Please keep patience while testing as the images are from server i.e not kept locally.
