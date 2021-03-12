@@ -1,0 +1,32 @@
+
+<div class="container" style="display:flex; justify-content: space-around;">
+    <div [ngClass]="{'text-success': cutrrentPlayer === 'first'}">
+        <h3>Player 1</h3>
+        <h3>Points : {{playerOne.points}} </h3>
+    </div>
+
+    <div>
+        <h3 class="font-italic">Memory Game</h3>
+    </div>
+    
+    <div [ngClass]="{'text-success': cutrrentPlayer === 'second'}">
+        <h3>Player 2</h3>
+        <h3>Points : {{playerTwo.points}} </h3>
+    </div>
+</div>
+
+<div *ngIf="resetRequired()" class="text-center">
+    <button class="btn btn-primary" (click)="reset()">
+        Click to play again !
+    </button>
+</div>
+
+<div class="text-center" *ngIf="resetRequired()">
+    <h3>{{showWinner()}} wins</h3>
+</div>
+
+<div class="container text-center">
+    <div style="display: inline-block;" *ngFor="let i of cData; trackBy: trackByMethod" class="row">
+        <app-card [cardData]="i" (clickedCard)=singleCardClicked($event)></app-card>
+    </div>
+</div>
