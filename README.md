@@ -11,11 +11,4 @@ Also some notes about the app.
 stack: Angular 11, CSS, HTML, Bootstrap 4
 Images are rendering from "https://picsum.photos"
 
-Some considerations:
--Its a two player game
--Player one will start the game
--Current player will be marked in green text
--Please keep patience while testing as the images are from server i.e not kept locally.
--Player will maximum points will win. Game can be reset after that
--Card component is for single card (image)
--Cards componenet manages card component also player realated information
+Some considerations: -Its a two player game -Player one will start the game -Current player will be marked in green text -Please keep patience while testing as the images are from the server i.e not kept locally. -Player with maximum points will win. Game can be reset after that -Card component is for single card (image) -Cards component manages card component also player related information
